@@ -3,9 +3,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import b1 from './images/b1.jpg';
 import b2 from './images/b2.jpg';
 import { motion } from 'framer-motion';
+import Category from './category/Category';
 
 const Home = () => {
   return (
+    <>
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
@@ -21,6 +23,8 @@ const Home = () => {
         </Carousel.Item>
       </Carousel>
     </motion.div>
+      <Category />
+      </>
   );
 };
 

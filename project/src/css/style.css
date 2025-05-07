@@ -6,3 +6,22 @@
   background-color: #198754; /* Bootstrap success color fallback */
   transition: all 0.3s ease-in-out;
 }
+.category{
+  margin-top: 50px;
+}
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+  justify-items: center;
+}
+
+.category {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
