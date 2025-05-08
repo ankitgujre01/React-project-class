@@ -17,10 +17,17 @@ import cat15 from './images/schoolsupllies.jpg';
 import cat16 from './images/tissueplates.jpg'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+
+import { Link } from 'react-router-dom';
 const Category = () => {
   return (
-      <>
-        <div className='category-container'>          
+    <>
+      <center style={{marginTop:'20px'}}>
+        <h1 className='category-heading'>Categories</h1>
+      <p className='category-subheading'>Explore our wide range of categories</p>
+      </center>
+      <div className='category-container'> 
+        
         <Card style={{ width: '18rem' }} className='category'>
       <Card.Img variant="top" src={cat1} />
       <Card.Body>
@@ -29,7 +36,9 @@ const Category = () => {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Link to="/sweets-and-dry-fruits">
+      <Button variant="primary">Explore</Button>
+    </Link>
       </Card.Body>
           </Card>
           

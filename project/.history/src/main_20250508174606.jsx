@@ -9,11 +9,8 @@ import './css/style.css';
 import { Provider } from 'react-redux';
 
 createRoot(document.getElementById('root')).render(
-  // <StrictMode>
-  //   <App />
-  // </StrictMode>,
-  <Provider store={store}>
+  <StrictMode>
     <App />
-  </Provider>
+  </StrictMode>,
   
 )
