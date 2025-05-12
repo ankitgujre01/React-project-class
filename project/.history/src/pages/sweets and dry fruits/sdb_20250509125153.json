@@ -1,0 +1,39 @@
+{
+    "sweets": [
+        {
+            "id": 1,
+            "name": "Kaju Katli",
+            "description": "A diamond-shaped sweet made from cashew nuts and sugar.",
+            "image": "/images/sweets/kaju-katli.jpg",
+            "price": 500
+        },
+        {
+            "id": 2,
+            "name": "Gulab Jamun",
+            "description": "Deep-fried dough balls soaked in sugar syrup.",
+            "image": "/images/sweets/gulab-jamun.jpg",
+            "price": 300
+        },
+        {
+            "id": 3,
+            "name": "Rasgulla",
+            "description": "Soft cheese balls soaked in sugar syrup.",
+            "image": "/images/sweets/rasgulla.jpg",
+            "price": 400
+        },
+        {
+            "id": 4,
+            "name": "Barfi",
+            "description": "A sweet made from condensed milk and sugar, often flavored with cardamom.",
+            "image": "/images/sweets/barfi.jpg",
+            "price": 350
+        },
+        {
+            "id": 5,
+            "name": "Ladoo",
+            "description": "Round sweet balls made from flour, sugar, and ghee.",
+            "image": "/images/sweets/ladoo.jpg",
+            "price": 250
+        }
+    ]
+}
